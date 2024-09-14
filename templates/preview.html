@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview File</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h2>File Preview</h2>
+
+    {% if filename.endswith('.mp4') %}
+    <!-- Video Player -->
+    <video autoplay="autoplay" controls="controls" preload="preload">
+        <source src="{{ url_for('display_video', filename=filename) }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    {% elif filename.endswith('.mp3') %}
+    <!-- MP3 Audio Player -->
+    <audio controls>
+        <source src="{{ url_for('display_video', filename=filename) }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    {% elif filename.endswith('.wav') %}
+    <!-- WAV Audio Player -->
+    <audio controls>
+        <source src="{{ url_for('display_video', filename=filename) }}" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+    {% else %}
+    <p>Unsupported file format for preview.</p>
+    {% endif %}
+
+    <br><br>
+    <a href="/">Upload another file</a>
+</body>
+
+</html>
