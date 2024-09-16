@@ -101,7 +101,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/your-repository.git
+git clone repository
 Install dependencies:
 
 bash
