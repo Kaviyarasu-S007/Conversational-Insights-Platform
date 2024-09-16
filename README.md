@@ -3,23 +3,8 @@
 Overview
 The Conversational Insights Platform is a comprehensive tool designed to process video and audio files, extracting valuable information such as transcriptions, topics, sentiments, and actionable insights. Developed using Flask, NLP, Deep Learning, and ASR technologies, this platform aims to provide in-depth analysis and understanding of audio-visual content.
 
-Table of Contents
-Introduction
-Tech Stack
-Tasks and Implementation
-Task 1 - Data Ingestion
-Task 2 - Transcription
-Task 3 - Topic Extraction
-Task 4 - Metadata Extraction
-Task 5 - Sentiment Analysis
-Task 6 - Insight Generation
-Task 7 - User Interface
-Task 8 - LLM Integration
-Task 9 - Version Control
-Task 10 - Documentation
-Usage
-Future Work
-License
+
+
 Introduction
 The Conversational Insights Platform processes and analyzes video and audio files to provide transcriptions, identify topics, perform sentiment analysis, and generate actionable insights. This project leverages various technologies to ensure robust and accurate processing.
 
