@@ -13,7 +13,10 @@ Backend: Flask (Python)
 Frontend: HTML, CSS
 Libraries: NLP, ASR, and sentiment analysis libraries
 Visualization: Word Cloud, Matplotlib, Seaborn
+
 Tasks and Implementation
+
+
 Task 1 - Data Ingestion
 Description: Supports uploading video and audio files (MP4, MP3, WAV).
 Implementation:
