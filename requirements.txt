@@ -1,0 +1,7 @@
+Flask
+SpeechRecognition
+transformers
+nltk
+gensim
+librosa
+torch
