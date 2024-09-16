@@ -96,20 +96,6 @@ Provides summaries and answers specific queries.
 Code Reference: LLM integration (bot.py)
 
 
-Task 9 - Version Control
-Description: Used Git for version control.
-Implementation:
-Tracked code updates, maintained separate branches for each feature.
-README provided instructions for setup and usage.
-Code Reference: GitHub repository overview (screenshots)
-
-
-Task 10 - Documentation
-Description: Detailed documentation on the project pipeline.
-Reporting:
-Accuracy of transcription
-Topic extraction (LDA coherence score)
-Challenges faced during sentiment analysis
 
 Clone the repository:
 
